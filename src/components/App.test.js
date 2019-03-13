@@ -14,14 +14,23 @@ describe('App', () => {
     expect(app.state().gifts).toEqual([]);
   });
 
-  it('adds a new gift to `state` when clicking the `add gift` button', () => {
-    app.find('.button-add').simulate('click');
-    expect(app.state().gifts).toEqual([{ id: 1 }]);
-  })
 
-  it('adds a new gift to the rendered list when clicking the `add gift` button.', () => {
-    app.find('.button-add').simulate('click');
-    expect(app.find('.gift-list').children().length).toEqual(2);
+  describe('when clicking the `add-gift` button', () => {
+
+    beforeEach(() => {
+      app.find('.button-add').simulate('click');
+    });
+
+    afterEach(() => {
+      app.setState({ gifts: [] });
+    })
+
+    it('adds a new gift to `state`', () => {
+      expect(app.state().gifts).toEqual([{ id: 1 }]);
+    })
+  
+    it('adds a new gift to the rendered list', () => {
+      expect(app.find('.gift-list').children().length).toEqual(1);
+    });
   });
-
 })

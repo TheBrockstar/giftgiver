@@ -18,36 +18,21 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
-        Gift Giver
-      </h2>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Gift Giver",
-      },
-      "ref": null,
-      "rendered": "Gift Giver",
-      "type": "h2",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h2>
+      "children": Array [
+        <h2>
           Gift Giver
         </h2>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <ForwardRef(Bootstrap(Button))
+          className="button-add"
+          onClick={[Function]}
+        >
+          Add Gift
+        </ForwardRef(Bootstrap(Button))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -58,6 +43,77 @@ ShallowWrapper {
         "rendered": "Gift Giver",
         "type": "h2",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Add Gift",
+          "className": "button-add",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add Gift",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Gift Giver
+          </h2>,
+          <ForwardRef(Bootstrap(Button))
+            className="button-add"
+            onClick={[Function]}
+          >
+            Add Gift
+          </ForwardRef(Bootstrap(Button))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Gift Giver",
+          },
+          "ref": null,
+          "rendered": "Gift Giver",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Add Gift",
+            "className": "button-add",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add Gift",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+      ],
       "type": "div",
     },
   ],

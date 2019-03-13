@@ -10,7 +10,7 @@ class Gift extends Component {
 
   render() {
     return (
-      <div>
+      <div className="gift">
         <Form>
           <FormGroup>
             <FormLabel>Person</FormLabel>
@@ -18,7 +18,7 @@ class Gift extends Component {
             className="input-person" 
             onChange={event => this.setState({ person: event.target.value })}
             />
-            <FormLabel>Person</FormLabel>
+            <FormLabel>Present</FormLabel>
             <FormControl
             className="input-present"
             onChange={event => this.setState({ present: event.target.value })}

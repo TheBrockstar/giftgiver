@@ -22,5 +22,8 @@ Data is currently not persistent, stored only in state.
 ## 2.  Lootcheck 
 -- In Progress --
 
+
+
+---
 Created with instruction from Udemy:
 https://www.udemy.com/react-tdd

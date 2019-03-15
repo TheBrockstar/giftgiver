@@ -2,7 +2,7 @@
 Demo Apps used to experiment with, and learn, React Test Driven Development.
 
 ## 1.  Gift Giver
-Demo Apps for keeping track of gift ideas.
+Demo App for keeping track of gift ideas.
 
 Data is currently not persistent, stored only in state.
 
@@ -22,6 +22,12 @@ Data is currently not persistent, stored only in state.
 ## 2.  Lootcheck 
 -- In Progress --
 
+### Dependencies (excepting react boilerplate):
+ - Enzyme
+ - Jest
+ - redux
+ - react-redux
+ - sfcookies
 
 
 ---

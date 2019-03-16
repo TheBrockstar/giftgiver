@@ -18,9 +18,15 @@ Data is currently not persistent, stored only in state.
  - Behavior Driven Tests
  - Event Simulation
 
-
 ## 2.  Lootcheck 
 -- In Progress --
+
+### Testing Features
+ - Shallow Unit Testing
+ - Snapshots
+ - Test Suites and Blocks
+ - Behavior Driven Tests
+ - Event Simulation
 
 ### Dependencies (excepting react boilerplate):
  - Enzyme
